@@ -8,14 +8,22 @@
 
 import UIKit
 
-class SFTabButton: UIButton {
+
+protocol buttonClickDelegate: NSObjectProtocol{
     
-    /*
+    func buttonClick(SFTabButton: NSInteger)
+}
+class SFTabButton: UIButton {
+    var Delegate: buttonClickDelegate?
+    
+    
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
         // Drawing code
+        self.Delegate?.buttonClick(2)
     }
-    */
+
 
 }
+ 

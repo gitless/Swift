@@ -8,13 +8,14 @@
 
 import UIKit
 
-class SFCustumTabBar: UIView {
+class SFCustumTabBar: UIView,buttonClickDelegate {
     
     var items :[UITabBarItem]{
     
         set(newValue){
             for (index,value) in newValue.enumerate(){
                 let  button = SFTabButton(type:.Custom)
+                button.Delegate = self;
                 let  buttonW = CGRectGetWidth(self.bounds)/CGFloat(newValue.count)
                 let  buttonX = CGFloat(index) * buttonW
                 let  buttonH = CGRectGetHeight(self.bounds)
@@ -22,6 +23,7 @@ class SFCustumTabBar: UIView {
                 button.backgroundColor = UIColor(red: 0.5, green: 0.2, blue: 0.2, alpha: 1)
                 button.setTitle(value.title, forState: .Normal)
                 button.setTitleColor(UIColor(red: 0, green: 0, blue: 0, alpha: 1), forState: .Normal)
+                
                 self.addSubview(button)
             }
         }
@@ -29,6 +31,9 @@ class SFCustumTabBar: UIView {
             return self.items
         }
     
+    }
+    func buttonClick(SFTabButton: NSInteger) {
+        print("ssdsdsdsds")
     }
     /*
     // Only override drawRect: if you perform custom drawing.
