@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157102311C8755A0008CBE0A /* SFHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157102301C8755A0008CBE0A /* SFHomeController.swift */; };
 		157FD3CE1C874DF4004251C2 /* SFTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157FD3CD1C874DF4004251C2 /* SFTabButton.swift */; };
 		15E772AA1C86EE25001FBC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772A91C86EE25001FBC43 /* AppDelegate.swift */; };
 		15E772AC1C86EE25001FBC43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772AB1C86EE25001FBC43 /* ViewController.swift */; };
 		15E772B11C86EE25001FBC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E772B01C86EE25001FBC43 /* Assets.xcassets */; };
 		15E772B41C86EE25001FBC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E772B21C86EE25001FBC43 /* LaunchScreen.storyboard */; };
 		15E772BC1C86EF5C001FBC43 /* SFTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772BB1C86EF5C001FBC43 /* SFTabController.swift */; };
-		15E772BE1C86F14E001FBC43 /* SFHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772BD1C86F14E001FBC43 /* SFHomeController.swift */; };
 		15E772C01C86F20F001FBC43 /* SFClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772BF1C86F20F001FBC43 /* SFClassifyController.swift */; };
 		15E772C21C86F321001FBC43 /* SFFeedBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772C11C86F321001FBC43 /* SFFeedBackController.swift */; };
 		15E772C41C86F351001FBC43 /* SFSubController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772C31C86F351001FBC43 /* SFSubController.swift */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157102301C8755A0008CBE0A /* SFHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFHomeController.swift; sourceTree = "<group>"; };
 		157FD3CD1C874DF4004251C2 /* SFTabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFTabButton.swift; sourceTree = "<group>"; };
 		15E772A61C86EE25001FBC43 /* IShuHui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IShuHui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E772A91C86EE25001FBC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		15E772B31C86EE25001FBC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15E772B51C86EE25001FBC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E772BB1C86EF5C001FBC43 /* SFTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFTabController.swift; sourceTree = "<group>"; };
-		15E772BD1C86F14E001FBC43 /* SFHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFHomeController.swift; sourceTree = "<group>"; };
 		15E772BF1C86F20F001FBC43 /* SFClassifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFClassifyController.swift; sourceTree = "<group>"; };
 		15E772C11C86F321001FBC43 /* SFFeedBackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFFeedBackController.swift; sourceTree = "<group>"; };
 		15E772C31C86F351001FBC43 /* SFSubController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFSubController.swift; sourceTree = "<group>"; };
@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1571022F1C8755A0008CBE0A /* SFHomeController */ = {
+			isa = PBXGroup;
+			children = (
+				157102301C8755A0008CBE0A /* SFHomeController.swift */,
+			);
+			path = SFHomeController;
+			sourceTree = "<group>";
+		};
 		15E7729D1C86EE25001FBC43 = {
 			isa = PBXGroup;
 			children = (
@@ -67,10 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				15E772C51C86F3E2001FBC43 /* SFCustumTabBar.swift */,
+				1571022F1C8755A0008CBE0A /* SFHomeController */,
 				15E772C11C86F321001FBC43 /* SFFeedBackController.swift */,
 				15E772C31C86F351001FBC43 /* SFSubController.swift */,
 				15E772BF1C86F20F001FBC43 /* SFClassifyController.swift */,
-				15E772BD1C86F14E001FBC43 /* SFHomeController.swift */,
 				15E772BB1C86EF5C001FBC43 /* SFTabController.swift */,
 				15E772A91C86EE25001FBC43 /* AppDelegate.swift */,
 				15E772AB1C86EE25001FBC43 /* ViewController.swift */,
@@ -159,8 +167,8 @@
 				15E772BC1C86EF5C001FBC43 /* SFTabController.swift in Sources */,
 				15E772AA1C86EE25001FBC43 /* AppDelegate.swift in Sources */,
 				15E772C61C86F3E2001FBC43 /* SFCustumTabBar.swift in Sources */,
+				157102311C8755A0008CBE0A /* SFHomeController.swift in Sources */,
 				157FD3CE1C874DF4004251C2 /* SFTabButton.swift in Sources */,
-				15E772BE1C86F14E001FBC43 /* SFHomeController.swift in Sources */,
 				15E772C21C86F321001FBC43 /* SFFeedBackController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
